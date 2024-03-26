@@ -324,7 +324,7 @@ ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀 @${xeonName.split("@")[0]}, Role : Administrator `
+xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀 @${xeonName.split("@")[0]}, *Role : Administrator* `
    XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -341,7 +341,7 @@ xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀 @${xeonName.split("@")[0]}, Role :
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = `𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀 @${xeonName.split("@")[0]}, Role : Participant`
+xeonbody = `𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀 @${xeonName.split("@")[0]}, *Role : Participant*`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
