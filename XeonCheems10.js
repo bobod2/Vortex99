@@ -271,7 +271,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
         }
         //premium
         async function replyprem(teks) {
-    replygcxeon(`This feature is for premium user, contact the owner to become premium user`)
+    replygcxeon(`*Premium* query. Contact *Owner* to get premium.`)
 }
         //script replier
         async function sendXeonBotIncMessage(chatId, message, options = {}){
